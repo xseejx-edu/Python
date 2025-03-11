@@ -10,7 +10,7 @@ Hello is a: {type("Hello")}
 True is a: {type(True)}
 """)
 
-#val = input("[input] Give a number : ")
+val = input("[input] Give a number : ")
 try:    
     number = int(val)
     print(f"{val} --> {type(number)}")
